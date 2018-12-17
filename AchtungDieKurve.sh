@@ -5,8 +5,6 @@
 
 # Stop upon error
 set -e
-git remote add origin https://github.com/Harsku/AchtungDieKurve.git
-git push -u origin master
 
 g++ src/*.cpp -Wall -Wextra -std=c++14 -I include -o AchtungDieKurve -lSDL2main -lSDL2 -I /opt/local/include -L /opt/local/lib
 
